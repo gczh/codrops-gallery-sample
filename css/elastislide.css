@@ -1,0 +1,79 @@
+/* line 2, ../sass/elastislide.css.sass */
+.es-carousel-wrapper {
+  background: white;
+  padding: 10px 27px;
+  position: relative;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* line 9, ../sass/elastislide.css.sass */
+.es-carousel {
+  overflow: hidden;
+  background: inherit;
+}
+
+/* line 13, ../sass/elastislide.css.sass */
+.es-carousel ul {
+  display: none;
+}
+
+/* line 16, ../sass/elastislide.css.sass */
+.es-carousel ul li {
+  height: 100%;
+  float: left;
+  display: block;
+}
+
+/* line 21, ../sass/elastislide.css.sass */
+.es-carousel ul li a {
+  border: 1px solid white;
+  display: block;
+  opacity: 0.8;
+  -webkit-touch-callout: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 33, ../sass/elastislide.css.sass */
+.es-carousel ul li.selected a {
+  border: 1px solid #81ce56;
+  opacity: 1;
+}
+
+/* line 37, ../sass/elastislide.css.sass */
+.es-carousel ul li a img {
+  display: block;
+  border: none;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* line 43, ../sass/elastislide.css.sass */
+.es-nav span {
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  background: transparent url(../images/nav_thumbs.png) no-repeat top left;
+  width: 14px;
+  height: 26px;
+  margin-top: -13px;
+  text-indent: -9000px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* line 55, ../sass/elastislide.css.sass */
+.es-nav span.es-nav-next {
+  right: 8px;
+  left: auto;
+  background-position: top right;
+}
+
+/* line 60, ../sass/elastislide.css.sass */
+.es-nav span:hover {
+  opacity: 1;
+}

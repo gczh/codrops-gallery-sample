@@ -1,0 +1,112 @@
+@import url("reset.css");
+/* line 4, ../sass/demo.css.sass */
+body {
+  background: #f7f7f7;
+  color: white;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+/* line 11, ../sass/demo.css.sass */
+a {
+  color: #dddddd;
+  text-decoration: none;
+}
+
+/* line 15, ../sass/demo.css.sass */
+a:hover {
+  color: #00c6e3;
+}
+
+/* line 18, ../sass/demo.css.sass */
+p.sub {
+  padding: 25px 10px 10px 10px;
+  text-align: left;
+  color: #aaaaaa;
+}
+
+/* line 23, ../sass/demo.css.sass */
+a .clr {
+  clear: both;
+}
+
+/* line 26, ../sass/demo.css.sass */
+h1 {
+  margin: 5px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  font-family: "Pacifico", Georgia, "Times New Roman", serif;
+  text-shadow: 1px 1px 1px black;
+  padding-bottom: 10px;
+  line-height: 40px;
+}
+
+/* line 36, ../sass/demo.css.sass */
+h1 span {
+  font-size: 10px;
+  display: block;
+  letter-spacing: 2px;
+  font-family: "Trebuchet MS", "Myriad Pro", Arial, sans-serif;
+  color: #00c6e3;
+  line-height: 14px;
+  padding-top: 10px;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+
+/* line 48, ../sass/demo.css.sass */
+.header {
+  font-size: 13px;
+  background: black;
+  opacity: 0.9;
+  text-transform: uppercase;
+  -moz-box-shadow: 1px 0px 2px black;
+  -webkit-box-shadow: 1px 0px 2px black;
+  box-shadow: 1px 0px 2px black;
+}
+
+/* line 57, ../sass/demo.css.sass */
+.header a {
+  line-height: 18px;
+  padding: 0 4px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px black;
+  color: #dddddd;
+}
+
+/* line 64, ../sass/demo.css.sass */
+.header a:hover {
+  color: white;
+}
+
+/* line 67, ../sass/demo.css.sass */
+.header a span {
+  font-weight: bold;
+}
+
+/* line 70, ../sass/demo.css.sass */
+.header span.right_ab {
+  float: right;
+}
+
+/* line 73, ../sass/demo.css.sass */
+.content {
+  margin: 0px 25px 30px 25px;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 77, ../sass/demo.css.sass */
+  .header a {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    text-shadow: none;
+  }
+
+  /* line 82, ../sass/demo.css.sass */
+  .header span.right_ab {
+    float: none;
+  }
+}
